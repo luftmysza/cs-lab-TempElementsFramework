@@ -105,7 +105,7 @@ Należy obsłużyć ewentualnie pojawiające się wyjątki z `System.IO` <https:
 
 Rozszerzasz klasę `TempFile` (w sensie formalnym - dziedziczenie), a raczej zawężasz jej funkcjonalność do operowania na plikach tylko tekstowych. Celem jest ułatwienie obsługi tymczasowych plików tekstowych, poprzez udostępnienie metod takich jak `Write()` czy `ReadAllText()` bezpośrednio z poziomu klasy `TempFile`.
 
-Skorzystasz ze strumieni "opakowujących": `StreamrReader` oraz `StreamWriter`.
+Skorzystasz ze strumieni "opakowujących": `StreamReader` oraz `StreamWriter`.
 
 Pamiętaj o właściwym zamknięciu wszystkich strumieni przy wywołaniu metody `Dispose`.
 
@@ -123,9 +123,9 @@ Postępując w podobny sposób jak w zadaniu 1, utwórz klasę `TempDir` impleme
 
 Bazując na interfejsie `ITempElements` utwórz klasę `TempElementsList`. Obiekt tej klasy przechowuje kolekcję elementów tymczasowych - np. różnego rodzaju plików tymczasowych, również folderów (formalnie zarządza elementami tymczasowymi, tworzy je, rejestruje ich lokalizacje i nazwy). Zrealizuj kolekcję jako listę tych elementów (`List<ITempElement>`).
 
-Zgodnie z założeniami zapisanymi w interfejsie `ITempElements` _property_ `Elements` zwraca listę elementów typu `IReadOnlyCollection<ITempElement>`. Lista ta co prawda jest _read-only_, zatem nie można jej edytować, jednakże elementy listy  mogą być edytowalne.
+Zgodnie z założeniami zapisanymi w interfejsie `ITempElements`, _property_ `Elements` zwraca listę elementów typu `IReadOnlyCollection<ITempElement>`. Lista ta co prawda jest _read-only_, zatem nie można jej edytować, jednakże elementy listy mogą być edytowalne (lista przechowuje referencje).
 
-Tworzenie obiektów tymczasowych realizowane jest za pomocą ich konstruktorów bezargumentowych (wymusza to bezargumentowa metoda generyczna `AddElement<T>()` oraz ograniczenie na typ generyczny `where T : new()`) - a więc w domyślnej lokalizacji plików tymczasowych systemu operacyjnego/profilu użytkownika,
+Tworzenie obiektów tymczasowych realizowane jest za pomocą ich konstruktorów bezargumentowych (wymusza to bezargumentowa metoda generyczna `AddElement<T>()` oraz ograniczenie na typ generyczny `where T : new()`) - a więc w domyślnej lokalizacji plików tymczasowych systemu operacyjnego/profilu użytkownika.
 
 Utworzony element można przesunąć do innej fizycznej lokalizacji metodą `MoveElementTo<T>(T element, string newPath)` (uwaga: można to zrobić również spoza kolekcji).
 
