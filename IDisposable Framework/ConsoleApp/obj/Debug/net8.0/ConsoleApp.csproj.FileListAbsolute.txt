@@ -1,0 +1,18 @@
+C:\Users\drboo\Desktop\IDisposable Framework\ConsoleApp\bin\Debug\net8.0\ConsoleApp.exe
+C:\Users\drboo\Desktop\IDisposable Framework\ConsoleApp\bin\Debug\net8.0\ConsoleApp.deps.json
+C:\Users\drboo\Desktop\IDisposable Framework\ConsoleApp\bin\Debug\net8.0\ConsoleApp.runtimeconfig.json
+C:\Users\drboo\Desktop\IDisposable Framework\ConsoleApp\bin\Debug\net8.0\ConsoleApp.dll
+C:\Users\drboo\Desktop\IDisposable Framework\ConsoleApp\bin\Debug\net8.0\ConsoleApp.pdb
+C:\Users\drboo\Desktop\IDisposable Framework\ConsoleApp\bin\Debug\net8.0\IDisposable Framework.dll
+C:\Users\drboo\Desktop\IDisposable Framework\ConsoleApp\bin\Debug\net8.0\IDisposable Framework.pdb
+C:\Users\drboo\Desktop\IDisposable Framework\ConsoleApp\obj\Debug\net8.0\ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\drboo\Desktop\IDisposable Framework\ConsoleApp\obj\Debug\net8.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\drboo\Desktop\IDisposable Framework\ConsoleApp\obj\Debug\net8.0\ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\drboo\Desktop\IDisposable Framework\ConsoleApp\obj\Debug\net8.0\ConsoleApp.AssemblyInfo.cs
+C:\Users\drboo\Desktop\IDisposable Framework\ConsoleApp\obj\Debug\net8.0\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\drboo\Desktop\IDisposable Framework\ConsoleApp\obj\Debug\net8.0\ConsoleApp.csproj.Up2Date
+C:\Users\drboo\Desktop\IDisposable Framework\ConsoleApp\obj\Debug\net8.0\ConsoleApp.dll
+C:\Users\drboo\Desktop\IDisposable Framework\ConsoleApp\obj\Debug\net8.0\refint\ConsoleApp.dll
+C:\Users\drboo\Desktop\IDisposable Framework\ConsoleApp\obj\Debug\net8.0\ConsoleApp.pdb
+C:\Users\drboo\Desktop\IDisposable Framework\ConsoleApp\obj\Debug\net8.0\ConsoleApp.genruntimeconfig.cache
+C:\Users\drboo\Desktop\IDisposable Framework\ConsoleApp\obj\Debug\net8.0\ref\ConsoleApp.dll
